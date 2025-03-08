@@ -2,6 +2,8 @@
 
 **Research exploring how small LLMs can autonomously enhance their own research and reasoning capabilities by generating, researching, and answering self-created question-answer pairs, learning agentic search via reinforcement learning.**
 
+**Credits:** This project was built on top of [Unsloth's Efficient GRPO code](https://unsloth.ai/blog/r1-reasoning), and adds support for function calling and agentic loops.
+
 ---
 
 ## 🚀 **Key Features**
@@ -10,7 +12,7 @@
 - **Autonomous Self-Verification:** Llama-8B evaluates the accuracy of its own answers, creating a self-improving feedback loop.
 - **GRPO Reinforcement Learning:** Implements Group Relative Policy Optimization (GRPO) to refine Llama-8B’s ability to research, search, and reason effectively.
 - **Fully Autonomous Open-Source Pipeline:**
-  Every step—including question generation, answer research, verification, embedding creation, and reinforcement learning—runs locally using open-source models.
+  Every step, including question generation, answer research, verification, embedding creation, and reinforcement learning, runs locally using open-source models.
 
 ---
 
