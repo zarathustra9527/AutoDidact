@@ -1,14 +1,14 @@
 # **AutoDidact: Bootstrapping Search Through Self-Verification**
 
-**Research exploring how the Llama-8B model can autonomously enhance its own research and reasoning capabilities by generating, researching, and answering self-created question-answer pairs, learning agentic search via reinforcement learning.**
+**Research exploring how small LLMs can autonomously enhance their own research and reasoning capabilities by generating, researching, and answering self-created question-answer pairs, learning agentic search via reinforcement learning.**
 
 ---
 
 ## 🚀 **Key Features**
 
-- **Self-Bootstrapping with Llama-8B**Llama-8B autonomously generates meaningful question-answer pairs from documents, then trains itself to search the corpus effectively to answer these self-generated questions.
-- **Autonomous Self-Verification**Llama-8B evaluates the accuracy of its own answers, creating a self-improving feedback loop.
-- **GRPO Reinforcement Learning**Implements Group Relative Policy Optimization (GRPO) to refine Llama-8B’s ability to research, search, and reason effectively.
+- **Self-Bootstrapping with Llama-8B** Llama-8B autonomously generates meaningful question-answer pairs from documents, then trains itself to search the corpus effectively to answer these self-generated questions.
+- **Autonomous Self-Verification** Llama-8B evaluates the accuracy of its own answers, creating a self-improving feedback loop.
+- **GRPO Reinforcement Learning** Implements Group Relative Policy Optimization (GRPO) to refine Llama-8B’s ability to research, search, and reason effectively.
 - **Fully Autonomous Open-Source Pipeline**
   Every step—including question generation, answer research, verification, embedding creation, and reinforcement learning—runs locally using open-source models.
 
