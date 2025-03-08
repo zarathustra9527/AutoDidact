@@ -111,6 +111,4 @@ This will generate new question-answer pairs and build a search index, allowing 
 
 ## 🌟 **Significance**
 
-This research demonstrates a **powerful method for developing autonomous AI systems** capable of **continuous self-improvement**—significantly reducing reliance on costly human annotations.
-
-By leveraging **bootstrapped learning**, smaller language models can develop sophisticated search and reasoning capabilities, proving that **intelligent research agents don’t require massive-scale models or supervised training**.
+This research demonstrates a **powerful method for developing autonomous AI systems** capable of **continuous self-improvement,** reducing reliance on costly human annotations.
