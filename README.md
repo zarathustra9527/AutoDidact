@@ -14,6 +14,27 @@
 
 ---
 
+## 📈 **Quickstart**
+
+### **Installation**
+
+```bash
+pip install -r requirements.txt
+```
+
+### **Data Generation & Training**
+
+Begin by generating the embeddings, questions, and answers:
+
+```bash
+python generate_data.py  # Generate QA pairs and embeddings for your documents
+```
+
+Now, run `autodidact.ipynb` and watch your research agent learn!
+
+---
+
+
 ## 📊 **Demonstrated Results**
 
 ![Alt Text](./train-graph.png)
@@ -74,26 +95,6 @@ This example highlights how **smaller models can learn sophisticated search stra
 - **`embeddings.py`** – Manages document/query embedding generation.
 - **`rl_helpers.py`** – Controls agent interactions and reward logic.
 - **`autodidact.ipynb`** – Full training pipeline example.
-
----
-
-## 📈 **Quickstart**
-
-### **Installation**
-
-```bash
-pip install -r requirements.txt
-```
-
-### **Data Generation & Training**
-
-Begin by generating the embeddings, questions, and answers:
-
-```bash
-python generate_data.py  # Generate QA pairs and embeddings for your documents
-```
-
-Now, run `autodidact.ipynb` and watch your research agent learn!
 
 ---
 
