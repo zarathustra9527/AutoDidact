@@ -9,7 +9,7 @@ import re
 import asyncio
 import torch
 from datetime import datetime
-from search_module import search, verify, get_qa_dataset
+from search_module import search, get_qa_dataset
 from dataclasses import dataclass
 import nest_asyncio
 nest_asyncio.apply()
