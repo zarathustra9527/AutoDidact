@@ -2,7 +2,7 @@
 
 **Research exploring how small LLMs can autonomously enhance their own research and reasoning capabilities by generating, researching, and answering self-created question-answer pairs, learning agentic search via reinforcement learning.**
 
-**Credits:** This project was built on top of [Unsloth's Efficient GRPO code](https://unsloth.ai/blog/r1-reasoning), and adds support for function calling and agentic loops.
+**Credits:** This project was built using [Unsloth's Efficient GRPO code](https://unsloth.ai/blog/r1-reasoning), and adds support for function calling and agentic loops.
 
 ---
 
