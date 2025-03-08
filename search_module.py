@@ -15,11 +15,6 @@ from datasets import Dataset
 from embeddings import CustomHuggingFaceEmbeddings
 
 
-with open("./oai.key", "r") as f:
-    api_key = f.read().strip()
-    
-
-
 
 
 # Load pre-saved vectorstore
