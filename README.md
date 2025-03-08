@@ -111,7 +111,3 @@ python generate_data.py
 This will generate new question-answer pairs and build a search index, allowing you to train a research agent on **any dataset**.
 
 ---
-
-## 🌟 **Significance**
-
-This research demonstrates a **powerful method for developing autonomous AI systems** capable of **continuous self-improvement,** reducing reliance on costly human annotations.
