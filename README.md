@@ -64,7 +64,7 @@ The following example demonstrates this learned adaptive search behavior **after
 
 The original Command Module Pilot lacked immunity to measles, necessitating his replacement by Jack Swigert.
 
-This example highlights how **smaller models can learn sophisticated search strategies through self-directed training**.
+This example shows how llama learns to do multiple searches to find answers to its questions.
 
 ---
 
