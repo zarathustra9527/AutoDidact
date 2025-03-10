@@ -15,28 +15,6 @@
   Every step, including question generation, answer research, verification, embedding creation, and reinforcement learning, runs locally using open-source models.
 
 ---
-
-## 📈 **Quickstart**
-
-### **Installation**
-
-```bash
-pip install -r requirements.txt
-```
-
-### **Data Generation & Training**
-
-Begin by generating the embeddings, questions, and answers:
-
-```bash
-python generate_data.py  # Generate QA pairs and embeddings for your documents
-```
-
-Now, run `autodidact.ipynb` and watch your research agent learn!
-
----
-
-
 ## 📊 **Demonstrated Results**
 
 ![Alt Text](./train-graph.png)
@@ -87,6 +65,26 @@ The following example demonstrates this learned adaptive search behavior **after
 The original Command Module Pilot lacked immunity to measles, necessitating his replacement by Jack Swigert.
 
 This example highlights how **smaller models can learn sophisticated search strategies through self-directed training**.
+
+---
+
+## 📈 **Quickstart**
+
+### **Installation**
+
+```bash
+pip install -r requirements.txt
+```
+
+### **Data Generation & Training**
+
+Begin by generating the embeddings, questions, and answers:
+
+```bash
+python generate_data.py  # Generate QA pairs and embeddings for your documents
+```
+
+Now, run `autodidact.ipynb` and watch your research agent learn!
 
 ---
 
