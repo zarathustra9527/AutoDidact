@@ -1,6 +1,6 @@
 # **AutoDidact: Bootstrapping Search Through Self-Verification**
 
-**Research exploring how small LLMs can autonomously enhance their own research and reasoning capabilities by generating, researching, and answering self-created question-answer pairs, learning agentic search via reinforcement learning.**
+**Research exploring how small LLMs can autonomously enhance their own research and reasoning capabilities by generating, researching, and answering self-created question-answer pairs, learning agentic search via reinforcement learning. All runs on a single RTX 4090!**
 
 **Credits:** This project was built using [Unsloth's Efficient GRPO code](https://unsloth.ai/blog/r1-reasoning), and adds support for function calling and agentic loops.
 
@@ -19,7 +19,7 @@
 
 ![Alt Text](./train-graph.png)
 
-After just **100 steps of GRPO training** (1 hour on a single H100 GPU), Llama-8B significantly improved its ability to research and answer questions from the Apollo 13 mission report.
+After just **100 steps of GRPO training** (1 hour on a single RTX 4090 GPU), Llama-8B significantly improved its ability to research and answer questions from the Apollo 13 mission report.
 
 On a validation set of 68 questions, **accuracy more than doubled from 23% to 53%**.
 
