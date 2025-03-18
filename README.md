@@ -21,7 +21,7 @@
 
 After just **100 steps of GRPO training** (1 hour on a single RTX 4090 GPU), Llama-8B significantly improved its ability to research and answer questions from the Apollo 13 mission report.
 
-On a validation set of 68 questions, **accuracy more than doubled from 23% to 53%**.
+On a validation set of 68 questions, **accuracy more than doubled from 23% to 59%**.
 
 ---
 
