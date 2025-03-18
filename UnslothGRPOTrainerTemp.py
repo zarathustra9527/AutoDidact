@@ -915,7 +915,7 @@ class _UnslothGRPOTrainer(Trainer):
                     prompt_inputs = agentic_outputs.prompt_tokens
                     completion_ids = agentic_outputs.response_tokens
                     completion_mask = agentic_outputs.response_masks
-                    prompt_inputs = pad(
+                    prompt_ids = pad(
                         prompt_inputs,
                         padding_value=self.processing_class.pad_token_id,
                         padding_side="left",
